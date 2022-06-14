@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook clone</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+    
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <!-- header portion starts-->
+    <div class="header">
+        <div class="header__left">
+            <img src="/IMAGES/fb-logo.png" alt="fb-logo">
+            <div class="header__input">
+                <span class="material-symbols-outlined">
+                    search
+                    </span>
+                    <input type="text" placeholder="Search Facebook">
+            </div>
+        </div>
+        <div class="header__middle">
+            <div class="header__option active">
+                <span class="material-symbols-outlined ">
+                    home
+                    </span> </div>
+                    <div class="header__option"><span class="material-symbols-outlined">
+                        flag
+                        </span></div>
+                        <div class="header__option"><span class="material-symbols-outlined">
+                            subscriptions
+                            </span></div>
+
+                        <div class="header__option"><span class="material-symbols-outlined">
+                            storefront
+                            </span></div>
+                        <div class="header__option"><span class="material-symbols-outlined">
+                            supervised_user_circle
+                            </span></div></div>
+        <div class="header__right">
+            <div class="header__info">
+                <img 
+                class="user__avatar" src="/IMAGES/avatar.png" alt="avatar">
+                <h4>Nishanth Chandru</h4>
+            </div>
+            <span class="material-symbols-outlined">
+                add
+                </span>
+                <span class="material-symbols-outlined">
+                    forum
+                    </span>
+                    <span class="material-symbols-outlined">
+                        notifications_active
+                        </span>
+                        <span class="material-symbols-outlined">
+                            expand_more
+                            </span>
+        </div>
+    </div>
+    <!-- header portion ends-->
+    <!-- main body starts-->
+    <div class="main__body">
+        <!--  side bar starts-->
+        <div class="sidebar">
+            <div class="sidebarRow">
+                <img 
+                class="user__avatar" src="/IMAGES/avatar.png" alt="avatar">
+                <h4>Nishanth Chandru</h4>
+            </div>
+            <div class="sidebarRow">
+                <span class="material-symbols-outlined">
+                    local_hospital
+                    </span><h4> Covid 19 Info-center</h4>
+            </div>
+            <div class="sidebarRow">
+                <span class="material-symbols-outlined">
+                    emoji_flags
+                    </span>
+                    <h4> Pages</h4>
+            </div>
+            <div class="sidebarRow">
+                <span class="material-symbols-outlined">
+                    group
+                    </span>
+                    <h4>Groups</h4>
+            </div>
+            <div class="sidebarRow">
+                <span class="material-symbols-outlined">
+                    forum
+                    </span>
+                    <h4>Chat</h4>
+            </div>
+            <div class="sidebarRow">
+                <span class="material-symbols-outlined">
+                    storefront
+                    </span>
+                    <h4>Market place</h4>
+            </div>
+            <div class="sidebarRow">
+                <span class="material-symbols-outlined">
+                    video_library
+                    </span>
+                    <h4>Videos</h4>
+            </div>
+            <div class="sidebarRow">
+                <span class="material-symbols-outlined">
+                    expand_circle_down
+                    </span>
+                    <h4>More</h4>
+            </div>
+        </div>
+        <!--  side bar ends-->
+        <!--  FEED PORTION STARTS-->
+        <div class="feed">
+            <div class="storyReel">
+                <!--  story PORTION STARTS-->
+                <div style="background-image:  url('/IMAGES/image2.jpg');"
+                class ="story">
+                    <img class="user__avatar story__avatar" src="/IMAGES/editpic.jpg">
+                    <h4> Nishanth Chandru</h4>
+                </div>
+                <div style="background-image:  url('/IMAGES/coo.jpeg');"
+                class ="story">
+                    <img class="user__avatar story__avatar" src="/IMAGES/20220526_194133.jpg">
+                    <h4> Nandha Engineering college</h4>
+                </div>
+                <div style="background-image:  url('/IMAGES/Screenshot\ \(2\).png');"
+                class ="story">
+                    <img class="user__avatar story__avatar" src="/IMAGES/netflix.png">
+                    <h4> Netflix</h4>
+                </div>
+                <div style="background-image:  url('/IMAGES/cloud.jpg');"
+                class ="story">
+                    <img class="user__avatar story__avatar" src="/IMAGES/edu iamge.png">
+                    <h4> Edureka</h4>
+                </div>
+                <div style="background-image:  url('/IMAGES/images\ \(6\).jpeg');"
+                class ="story">
+                    <img class="user__avatar story__avatar" src="/IMAGES/20220526_194040.jpg">
+                    <h4>Cheems page</h4>
+                </div>
+                <div style="background-image:  url('/IMAGES/keerreel.jpg');"
+                class ="story">
+                    <img class="user__avatar story__avatar" src="/IMAGES/keerlogo.jpg">
+                    <h4> Keerthi Suresh</h4>
+                </div>
+                      <!--  story PORTION ends-->
+            </div>
+            <!--message sender starts-->
+            <div class="messagesender">
+                <div class="messagesender_top">
+                    <img class="user__avatar" src="/IMAGES/avatar.png">
+                    <form>
+                        <input type="text" class="messagesender__input" placeholder="Whats on your Mind?">
+                    </form>
+                </div>
+                <div class="messagesender__bottom">
+                    <div class="messagesender__option">
+                        <span style="color:red"class="material-symbols-outlined">
+                            videocam
+                            </span>
+                            <h3>Live</h3>
+                    </div>
+                    <div class="messagesender__option">
+                        <span style="color:green"class="material-symbols-outlined">
+                            photo_library
+                            </span>
+                            <h3>Photo</h3>
+                    </div>
+                    <div class="messagesender__option">
+                        <span style="color:orange"class="material-symbols-outlined">
+                            add_reaction
+                            </span>
+                            <h3>Feeling</h3>
+                    </div>
+                    
+                </div>
+            </div>
+            <!--message sender ends-->
+            <!--post starts-->
+            <div class="post">
+                <div class="posttop">
+                    <img class="user__avatar post__avatar" src="/IMAGES/editpic.jpg">
+                    <div class="post__topinfo">
+                        <h3>Nishanth Chandru</h3>
+                        <p>28 May at 12.30 pm</p>
+                    </div>
+                </div>
+                <div class="postbottom">
+                    <p><b>Am delightened to share my throwback picture of <br><br>NCC 4th Batalion Camp held at Sri Sakthi Engineering College. <br><br>With the hearfull of sprituality and equality, walking forward boldly.......</p></b><br></div>
+                    <div class="post__image">
+                    <img src="/IMAGES/ncc fed.jpg">
+                    </div>
+
+                <div class="post__options">
+                    <div class="post__option">
+                        <span class="material-symbols-outlined">
+                            thumbs_up_down
+                            </span>
+                            <p>Like</p>
+                    </div>
+                    <div class="post__option">
+                        <span class="material-symbols-outlined">
+                            chat_bubble
+                            </span>
+                            <p>Comment</p>
+                    </div>
+                    <div class="post__option">
+                        <span class="material-symbols-outlined">
+                            near_me
+                            </span>
+                            <p>Share</p>
+                    </div>
+
+                </div>
+                <div class="post">
+                <div class="posttop">
+                    <img class="user__avatar post__avatar" src="/IMAGES/20220526_194133.jpg">
+                    <div class="post__topinfo">
+                        <h3>Nandha Educational Institutions</h3>
+                        <p>28 April at 12.30 pm</p>
+                    </div>
+                </div>
+                <div class="postbottom">
+                    <p><b>Dear all, Here comes the big day!!!<br><br> Our College Annual Day is Sceduled on 04.06.2022.<br><br>Get ready to explore your talents!!</b></p><br></div>
+                    <div class="post__image">
+                    <img src="/IMAGES/neceventfeed.jpg">
+                    </div>
+
+                <div class="post__options">
+                    <div class="post__option">
+                        <span class="material-symbols-outlined">
+                            thumbs_up_down
+                            </span>
+                            <p>Like</p>
+                    </div>
+                    <div class="post__option">
+                        <span class="material-symbols-outlined">
+                            chat_bubble
+                            </span>
+                            <p>Comment</p>
+                    </div>
+                    <div class="post__option">
+                        <span class="material-symbols-outlined">
+                            near_me
+                            </span>
+                            <p>Share</p>
+                    </div>
+
+                </div>
+            </div><div class="post">
+                <div class="posttop">
+                    <img class="user__avatar post__avatar" src="/IMAGES/keerlogo.jpg">
+                    <div class="post__topinfo">
+                        <h3>KeerthiSuresh</h3>
+                        <p>2 June  at 12.30 pm</p>
+                    </div>
+                </div>
+                <div class="postbottom">
+                    <p><B>'A smile before the storm</B></p><br>
+                    <p><B>'Meet Adv.Ebin & Adv.Madhavi!</B></p><br></div>
+                    <div class="post__image">
+                    <img src="/IMAGES/keerfeed.jpg">
+                    </div>
+
+                <div class="post__options">
+                    <div class="post__option">
+                        <span class="material-symbols-outlined">
+                            thumbs_up_down
+                            </span>
+                            <p>Like</p>
+                    </div>
+                    <div class="post__option">
+                        <span class="material-symbols-outlined">
+                            chat_bubble
+                            </span>
+                            <p>Comment</p>
+                    </div>
+                    <div class="post__option">
+                        <span class="material-symbols-outlined">
+                            near_me
+                            </span>
+                            <p>Share</p>
+                    </div>
+
+                </div>
+                <div class="post">
+                <div class="posttop">
+                    <img class="user__avatar post__avatar" src="/IMAGES/20220526_194158.jpg">
+                    <div class="post__topinfo">
+                        <h3>Nishanth Chandru</h3>
+                        <p>28 may at 12.30 pm</p>
+                    </div>
+                </div>
+                <div class="postbottom">
+                    <p><b>"Aww poor Scotish lady Hooman;<br><br>
+                        Muriel Bagge is beimg stucked with Eustace!!!<br><br>
+                    Let me try to save My lord!!!!1"<br><br></b></p></div>
+                    <div class="post__image">
+                    <img src="/IMAGES/images (5).jpeg">
+                    </div>
+
+                <div class="post__options">
+                    <div class="post__option">
+                        <span class="material-symbols-outlined">
+                            thumbs_up_down
+                            </span>
+                            <p>Like</p>
+                    </div>
+                    <div class="post__option">
+                        <span class="material-symbols-outlined">
+                            chat_bubble
+                            </span>
+                            <p>Comment</p>
+                    </div>
+                    <div class="post__option">
+                        <span class="material-symbols-outlined">
+                            near_me
+                            </span>
+                            <p>Share</p>
+                    </div>
+
+                </div>
+            </div>
+             <!--post ends-->
+
+
+
+        </div>
+        <!--  FEED PORTION ENDS-->
+        
+
+        
+        
+
+    </div>
+    </div>
+    <div class="sidebar">
+        <div style=" flex: 0.33" class="widgets">
+            <div class="fb-page" data-href="https://www.facebook.com/facebook" data-tabs="timeline" data-width="500" data-height="1000" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/facebook">Meta</a></blockquote></div>
+        </div>
+        <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v13.0" nonce="yNrVe604"></script>
+    </div>
+    </div>
+    </div>
+    <!-- main body ends-->
+    
+</body>
+</html>
